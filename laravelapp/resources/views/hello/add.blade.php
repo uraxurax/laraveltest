@@ -20,5 +20,5 @@
 @endsection
 
 @section('footer')
-copyright 2017 hiro
+copyright 2016 hiro
 @endsection
