@@ -1,4 +1,4 @@
-@etends('layouts.helloapp')
+@extends('layouts.helloapp')
 
 @section('title', 'Person.Add')
 
@@ -13,7 +13,7 @@
         <ul>
             @foreach ($errors->all() as $error)
                 <li>{{ $error }} </li>
-            @endforaech
+            @endforeach
         </ul>
     </div>
     @endif
