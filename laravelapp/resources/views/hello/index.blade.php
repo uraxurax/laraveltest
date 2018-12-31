@@ -1,8 +1,6 @@
 @extends('layouts.helloapp')
 
 <style>
-    th {background-color:#999, color:#fff; padding:5px 10px; }
-    td {border: solid 1px #aaa; color:#999; padding:5px 10px; }    
     .pagination { font-size:10pt; }
     .pagination li {display:inline-block }
     tr th a:link { color: white; }
